@@ -15,6 +15,7 @@ return {
       , "cuda"
       , "dockerfile"
       , "go"
+      , "haskell"
       , "rust"
     })
   end,
