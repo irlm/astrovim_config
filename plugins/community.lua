@@ -5,5 +5,21 @@ return {
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.completion.copilot-lua-cmp" },
+
+  { import = "astrocommunity.pack.astro" },
+  { import = "astrocommunity.pack.bash" },
+  { import = "astrocommunity.pack.cmake" },
+  { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.haskell" },
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.json" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.markdown" },
+  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
+  { import = "astrocommunity.pack.vue" },
 }
