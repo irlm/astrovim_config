@@ -25,13 +25,8 @@ return {
 
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.editing-support.treej" },
-  { import = "astrocommunity.debugging,nvim-bqf" },
+  { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.git.git-blame-nvim" },
 
   { import = "astrocommunity.diagnostics.trouble-nvim" },
-  { import = "astrocommunity.diagnostics.nvim-lspconfig" },
-  { import = "astrocommunity.diagnostics.nvim-lspinstall" },
-  { import = "astrocommunity.diagnostics.nvim-lsp-ts-utils" },
-  { import = "astrocommunity.diagnostics.nvim-lspfuzzy" },
-  { import = "astrocommunity.diagnostics.nvim-lsp-trouble" },
 }
