@@ -4,7 +4,7 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   { import = "astrocommunity.pack.astro" },
@@ -22,4 +22,16 @@ return {
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.vue" },
+
+  { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.editing-support.treej" },
+  { import = "astrocommunity.debugging,nvim-bqf" },
+  { import = "astrocommunity.git.git-blame-nvim" },
+
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  { import = "astrocommunity.diagnostics.nvim-lspconfig" },
+  { import = "astrocommunity.diagnostics.nvim-lspinstall" },
+  { import = "astrocommunity.diagnostics.nvim-lsp-ts-utils" },
+  { import = "astrocommunity.diagnostics.nvim-lspfuzzy" },
+  { import = "astrocommunity.diagnostics.nvim-lsp-trouble" },
 }
