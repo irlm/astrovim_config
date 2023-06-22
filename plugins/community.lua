@@ -24,7 +24,6 @@ return {
   { import = "astrocommunity.pack.vue" },
 
   { import = "astrocommunity.motion.nvim-surround" },
-  { import = "astrocommunity.editing-support.treej" },
   { import = "astrocommunity.debugging.nvim-bqf" },
   { import = "astrocommunity.git.git-blame-nvim" },
 
